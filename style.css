@@ -61,7 +61,7 @@ a {
 
 .content1 .title {
     flex:1;
-    font-size: 38px
+    font-size: 48px
 }
 
 .content1 .text {
@@ -72,6 +72,9 @@ a {
 }
 
 .content1 .placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 18px;
     color: #E5E7EB;
     font-weight: 100;
@@ -89,6 +92,7 @@ a {
     width: 100px;
     height: 35px;
     border-radius: 10px;
+    border-width: 0px;
 }
 
 .content2 {
@@ -108,7 +112,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 8px;
+    gap: 30px;
 }
 .content2 .info {
     display: flex;
@@ -121,7 +125,7 @@ a {
 .content2 .info img {
     width: 150px;
     height: 150px;
-    border-radius: 10px;
+    border-radius: 20px;
     outline: 3px solid #3882F6;
     margin: 10px;
 }
@@ -143,6 +147,7 @@ a {
 .content3 .author {
     font-size: 24px;
     font-weight: 700;
+    text-align: right;
 }
 
 .content4 {
@@ -174,14 +179,17 @@ a {
 }
 
 .content4 .button {
-    background-color:#E5E7EB;
-    color:#3882F6;
+    background-color:#3882F6;
+    color:#E5E7EB;
     font-size: 18px;
     font-weight: 700;
     padding: 5px;
-    width: 100px;
-    height: 35px;
+    min-width: 100px;
+    min-height: 35px;
     border-radius: 10px;
+    border-color: #E5E7EB;
+    border-width: 3px;
+    border-style: solid;
 }
 
 .footer {
